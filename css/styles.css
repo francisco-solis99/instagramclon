@@ -103,12 +103,14 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 80%;
+    height: 90%;
 }
 
 .info__principal{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 82%;
     
 }
 
@@ -117,12 +119,41 @@ body{
     font-size: 1.8em;
 }
 
+.info__edit{
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+    border-bottom: 2px solid #EBEBEB;
+    
+}
 
+.edit__link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 0.9em;
+}
 
+.button__settings{
+    background-color: transparent;
+    border: none;
+}
 
 
 .stats__list{
     list-style-type: none;
     display:flex;
     justify-content: space-between;
+    width: 90%;
+}
+
+.stats__list span{
+    font-weight: bold;
+}
+
+.insta__name{
+    font-size: inherit;
 }
