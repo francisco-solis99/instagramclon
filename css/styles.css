@@ -81,7 +81,7 @@ body{
     grid-template-columns: 1fr 3fr;
     grid-gap: 1em;
     background-color: teal;
-    padding: 20px;
+    padding-left: 10px;
 }
 
 .insta__profile{
@@ -99,7 +99,7 @@ body{
 
 .insta__info{
     background-color: salmon;
-    padding: 0 1.2em;
+    /* padding: 0 1.2em; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
