@@ -76,9 +76,10 @@ body{
 }
 
 .header__wrapper{
-    grid-column: 2 / 5;
+    grid-column: 2 / 6;
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 1em;
     background-color: teal;
     padding: 20px;
 }
@@ -94,14 +95,10 @@ body{
 
 .profile__image{
     border-radius: 50%;
-    /* width: 100%; */
 }
 
 .insta__info{
-    justify-self: flex-start;
     background-color: salmon;
-    grid-column: 3 /-1 ;
-    
 }
 
 .info__principal{
