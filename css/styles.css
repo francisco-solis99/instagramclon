@@ -70,7 +70,7 @@ body{
 
 .insta__header{
     display: grid;
-    grid-template-columns: 20% repeat(4,1fr) 20%;
+    grid-template-columns: 20% repeat(5,1fr) 20%;
     padding-top: 4em;
     background-color: slategrey;
 }
@@ -99,8 +99,30 @@ body{
 
 .insta__info{
     background-color: salmon;
+    padding: 0 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
 }
 
 .info__principal{
     display: flex;
+    justify-content: space-between;
+    
+}
+
+.info__user-name{
+    font-weight: 300;
+    font-size: 1.8em;
+}
+
+
+
+
+
+.stats__list{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
 }
