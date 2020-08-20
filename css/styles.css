@@ -68,10 +68,12 @@ body{
     height: 25px;
 }
 
+/*------------------ Estilos del header del profile --------------------*/
+
 .insta__header{
     display: grid;
     grid-template-columns: 20% repeat(5,1fr) 20%;
-    padding-top: 4em;
+    padding-top: 5em;
     /* background-color: slategrey; */
 }
 
@@ -107,7 +109,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 82%;
+    width: 87%;
     
 }
 
@@ -159,6 +161,11 @@ body{
 .insta__name{
     font-size: inherit;
 }
+
+
+
+/*------------------ Estilos del hero de los posts --------------------*/
+
 
 .insta__hero{
     margin-top: 3em;
@@ -239,7 +246,7 @@ body{
 
 .insta__interactions{
     display: none;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.45);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -254,7 +261,13 @@ body{
 }
 
 .insta__interactions span{
-    display: block;
+    margin: 10px;
+}
+
+.insta__interactions div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 10px;
 }
 
@@ -266,4 +279,5 @@ body{
 .post__image{
     width: 100%;
     vertical-align: top; 
+    height: 220px;
 }
