@@ -161,7 +161,56 @@ body{
 }
 
 .insta__hero{
-    margin-top: 2em;
+    margin-top: 3em;
+    /* background-color: khaki; */
+}
+
+.insta__sections{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 0.82em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    border-top: 1px solid #DBDBDB;
+}
+
+.insta__sections a{
+    margin-right:3.75em ;
+    text-decoration: none;
+    color: #8e8e8e;
+    padding: 1.4em 0;
+    transition: 500ms all ease-in-out;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta__sections a:nth-child(1){
+    color: #262626;
+    border-top: 1px solid #262626;
+}
+
+
+.insta__sections a:hover{
+    color: #262626;
+    border-top: 1px solid #262626;
+}
+
+
+.insta__sections a:not(.section__ticked){
+    margin-right:3.75em ;
+}
+
+.section__icons{
+    width: 14px;
+    height: 14px;
+    vertical-align: top;
+    margin: 5px;
 }
 
 
