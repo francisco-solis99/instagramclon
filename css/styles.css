@@ -185,6 +185,9 @@ body{
     padding: 1.4em 0;
     transition: 500ms all ease-in-out;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .insta__sections a:nth-child(1){
@@ -201,6 +204,13 @@ body{
 
 .insta__sections a:not(.section__ticked){
     margin-right:3.75em ;
+}
+
+.section__icons{
+    width: 14px;
+    height: 14px;
+    vertical-align: top;
+    margin: 5px;
 }
 
 
