@@ -159,3 +159,62 @@ body{
 .insta__name{
     font-size: inherit;
 }
+
+.insta__hero{
+    margin-top: 2em;
+}
+
+
+.insta__post-list {
+    
+    display: grid;
+    grid-template-columns: repeat(3,minmax(100px, 293px ));
+    justify-content: center;
+    gap: 28px;
+
+
+
+}
+
+.insta__post{
+    /* width: 200px; */
+    /* height: 200px; */
+    cursor: pointer;
+    position: relative;
+
+}
+
+.insta__post:hover .insta__interactions{
+    display: flex;
+}
+
+.insta__interactions{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.insta__interactions span{
+    display: block;
+    margin: 10px;
+}
+
+
+.post__wrapper{
+    width: inherit;
+}
+
+.post__image{
+    width: 100%;
+    vertical-align: top; 
+}
