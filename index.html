@@ -5,64 +5,167 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/502b050bab.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="insta__nav">
-        <h1 class="insta__title">Instagram</h1>
-        <input type="text" placeholder="Busca" class="insta__search">
-        <ul class="instaoptions">
-            <li class="insta__home"></li>
-            <li class="insta__send"></li>
-            <li class="inta__explore"></li>
-            <li class="insta__heart"></li>
-            <li class="insta__you"></li>
-        </ul>
+        <div class="nav__wrapper">
+            <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="" class="insta__title">
+            <div class="insta__search--wrapper">
+                <input type="text" placeholder="Busca" class="insta__search">
+            </div>
+            <ul class="insta__options">
+                <li class="insta__home"><img src="https://img.icons8.com/windows/32/000000/home.png"/></li>
+                <li class="insta__send"><img src="https://img.icons8.com/windows/32/000000/filled-sent.png"/></li>
+                <li class="inta__explore"><img src="https://img.icons8.com/windows/32/000000/compass.png"/></li>
+                <li class="insta__heart"><img src="https://img.icons8.com/small/32/000000/like.png"/></li>
+                <li class="insta__you"><img src="https://instagram.fcyw4-1.fna.fbcdn.net/v/t51.2885-19/s150x150/81183695_542936809628485_4092932803195305984_n.jpg?_nc_ht=instagram.fcyw4-1.fna.fbcdn.net&_nc_ohc=l9-q8-pdO-MAX-AlI9p&oh=bcda3a195df93aae4e46618b509355a6&oe=5F6409CE" alt="Profile image" class="insta__you"></li>
+            </ul>
+        </div>
     </nav>
 
     <header class="insta__header">
-        <div class="insta__profile">
-            <figure class="profile__wrapper">
-                <img src="https://instagram.fcyw4-1.fna.fbcdn.net/v/t51.2885-19/s150x150/81183695_542936809628485_4092932803195305984_n.jpg?_nc_ht=instagram.fcyw4-1.fna.fbcdn.net&_nc_ohc=l9-q8-pdO-MAX-AlI9p&oh=bcda3a195df93aae4e46618b509355a6&oe=5F6409CE" alt="Profile image" class="profile__image">
-            </figure>
+        <div class="header__wrapper">
+            <div class="insta__profile">
+                <figure class="profile__wrapper">
+                    <img src="https://instagram.fcyw4-1.fna.fbcdn.net/v/t51.2885-19/s150x150/81183695_542936809628485_4092932803195305984_n.jpg?_nc_ht=instagram.fcyw4-1.fna.fbcdn.net&_nc_ohc=l9-q8-pdO-MAX-AlI9p&oh=bcda3a195df93aae4e46618b509355a6&oe=5F6409CE" alt="Profile image" class="profile__image">
+                </figure>
+            </div>
+            <section class="insta__info">
+                <div class="info__principal">
+                    <h2 class="info__user-name">javiermartinez088</h2>
+                    <div class="info__edit">
+                        <a href="#" class="edit__link">Editar perfil</a>
+                    </div>
+                    <div class="info__settings">
+                        <button class="button__settings">
+                            <div class="button__svg">
+                                <img src="https://img.icons8.com/ios/32/000000/settings.png"/>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="insta__stats">
+                    <ul class="stats__list">
+                        <li class="stats__publications">
+                            <span>16 </span> publicaciones
+                        </li>
+                        <li class="stats__followers">
+                            <span>13 </span> seguidores
+                        </li>
+                        <li class="stats__follow">
+                            <span>23 </span> seguidos
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="insta__name-wrapper">
+                    <h1 class="insta__name">Francisco Solis</h1>
+                </div>
+        
+            </section>
         </div>
-        <section class="insta__info">
-            <div class="info__principal">
-                <h2 class="info__user-name">javiermartinez</h2>
-                <div class="info__edit">
-                    <a href="#">Editar perfil</a>
-                </div>
-                <div class="info__settings">
-                    <button class="button__settings">
-                        <div class="button__svg">
-                            <img src="" alt="settings button">
-                        </div>
-                    </button>
-                </div>
-            </div>
-
-            <div class="insta__stats">
-                <ul class="stats__list">
-                    <li class="stats__publications">
-                        <span>16</span>
-                    </li>
-                    <li class="stats__followers">
-                        <span>13</span>
-                    </li>
-                    <li class="stats__follow">
-                        <span>23</span>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="insta__name-wrapper">
-                <h1 class="insta__name">Francisco Solis</h1>
-            </div>
-
-        </section>
     </header>
 
     <main class="insta__hero">
+        <section class="insta__post-list">
+            <a href="#" class="insta__post">
+                <figure class="post__wrapper">
+                    <img src="https://images.unsplash.com/photo-1483389127117-b6a2102724ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80" alt="" class="post__image">
+                </figure>
 
+                <div class="insta__interactions">
+                    <span class="insta__heart">
+                        158
+                    </span>
+                    <span class="insta__commnets">
+                        3
+                    </span>
+                </div>
+
+            </a>
+
+            <a href="#" class="insta__post">
+                <figure class="post__wrapper">
+                    <img src="https://images.unsplash.com/photo-1560457079-9a6532ccb118?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80" alt="" class="post__image">
+                </figure>
+
+                <div class="insta__interactions">
+                    <span class="insta__heart">
+                        158
+                    </span>
+                    <span class="insta__commnets">
+                        3
+                    </span>
+                </div>
+
+            </a>
+
+            <a href="#" class="insta__post">
+                <figure class="post__wrapper">
+                    <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80" alt="" class="post__image">
+                </figure>
+
+                <div class="insta__interactions">
+                    <span class="insta__heart">
+                        158
+                    </span>
+                    <span class="insta__commnets">
+                        3
+                    </span>
+                </div>
+
+            </a>
+
+            <a href="#" class="insta__post">
+                <figure class="post__wrapper">
+                    <img src="https://images.unsplash.com/photo-1483389127117-b6a2102724ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80" alt="" class="post__image">
+                </figure>
+
+                <div class="insta__interactions">
+                    <span class="insta__heart">
+                        158
+                    </span>
+                    <span class="insta__commnets">
+                        3
+                    </span>
+                </div>
+
+            </a>
+
+            <a href="#" class="insta__post">
+                <figure class="post__wrapper">
+                    <img src="https://images.unsplash.com/photo-1560457079-9a6532ccb118?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80" alt="" class="post__image">
+                </figure>
+
+                <div class="insta__interactions">
+                    <span class="insta__heart">
+                        158
+                    </span>
+                    <span class="insta__commnets">
+                        3
+                    </span>
+                </div>
+
+            </a>
+
+            <a href="#" class="insta__post">
+                <figure class="post__wrapper">
+                    <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80" alt="" class="post__image">
+                </figure>
+
+                <div class="insta__interactions">
+                    <span class="insta__heart">
+                        158
+                    </span>
+                    <span class="insta__commnets">
+                        3
+                    </span>
+                </div>
+
+            </a>
+        </section>
     </main>
 </body>
 </html>
